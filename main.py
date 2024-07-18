@@ -2,7 +2,7 @@ import telebot
 from kanji_lists import JLPT
 from jisho_api.kanji import Kanji
 
-TOKEN = '7384802355:AAGBUy1LgIEKD4OSd8MjecjcNpqdIAdv_m8'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
